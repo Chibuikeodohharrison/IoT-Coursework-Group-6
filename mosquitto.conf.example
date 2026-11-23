@@ -1,0 +1,6 @@
+# Example local Mosquitto configuration for the group assignment.
+# Restrict this to a trusted private network; do not expose port 1883 to the internet.
+listener 1883 0.0.0.0
+allow_anonymous true
+persistence true
+persistence_location C:\\Program Files\\mosquitto\\data\\
